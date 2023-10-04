@@ -102,7 +102,7 @@ left: 850px;
 .bas {
 
     background-color: coral;
-    color: aliceblue;
+    color: rgb(0, 0, 0);
     text-align: center;
     padding: 30px; 
     width: 645%;
@@ -110,4 +110,33 @@ left: 850px;
     position: relative;
     top: -980px;
     letter-spacing: 10;
+}
+
+@media screen and (max-width: 828px) { 
+
+.haut { 
+    width: 84%;
+}
+.gauche { 
+    width: 100%;
+   }
+.center {
+    z-index: 1;
+    position:relative;
+    left: -10%;
+    top: 900px;
+}
+
+.center2 {
+    position:relative;
+    left: -10%;
+    top: 1000px;
+
+}
+
+.bas {
+
+    width: 84%;
+
+}
 }
